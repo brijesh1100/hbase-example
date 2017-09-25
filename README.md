@@ -9,4 +9,8 @@ This is poc to explane how to add JSON payload into HBsae with JAVA API
 - hbase.zookeeper.property.clientPort=2181
 - hbase.zookeeper.quorum=ip-XXX-XX-X-XXX.ap-southeast-1.compute.internal,ip-XXX-XX-X-XXX.ap-southeast-1.compute.internal
 
+
 Above propertites I have added into code itself.
+
+for me, I have 2 zookeeper node, which is why I have added 2 IP into zookeeper `quorum` any one can change according to there need.
+
